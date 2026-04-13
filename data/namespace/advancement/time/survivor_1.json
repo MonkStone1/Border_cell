@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dandelion"
+    },
+    "title": "Первый день",
+    "description": "Проживите 1 день",
+    "background": "minecraft:block/gold_block",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    
+  },
+  "criteria": {
+    "aboba": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "namespace:count_for_my_adv"
+  }
+}

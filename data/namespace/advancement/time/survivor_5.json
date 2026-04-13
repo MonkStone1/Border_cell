@@ -1,0 +1,22 @@
+{
+  "parent": "namespace:time/survivor_1",
+  "display": {
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "title": "Опытный",
+    "description": "Проживите 5 дней",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aboba": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "namespace:count_for_my_adv"
+  }
+}

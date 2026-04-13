@@ -1,0 +1,48 @@
+{
+  "": [],
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Магазин",
+    "type": "text",
+    "font": "minecraft:default",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Выберайте что купить всё за опыт!"
+      }
+    }
+  ],
+  "pause": false,
+  "columns": 2,
+  "actions": [
+    {
+      "label": {
+        "text": "Расширение барьера",
+        "type": "text",
+        "extra": [
+          ""
+        ],
+        "font": "minecraft:default"
+      },
+      "tooltip": "За 1 уровень опыта",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function namespace:buy_border"
+      }
+    },
+    {
+      "label": {
+        "text": "Рандомные ресурсы",
+        "type": "text"
+      },
+      "tooltip": "За 3 уровня опыта",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function namespace:buy_loot"
+      }
+    }
+  ]
+}

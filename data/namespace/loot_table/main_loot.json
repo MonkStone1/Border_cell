@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:oak_log", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:stone", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:coal_ore", "weight": 8 },
+        { "type": "minecraft:item", "name": "minecraft:iron_ore", "weight": 7 },
+        { "type": "minecraft:item", "name": "minecraft:copper_ore", "weight": 7 },
+        { "type": "minecraft:item", "name": "minecraft:gold_ore", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:redstone_ore", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:lapis_ore", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:diamond_ore", "weight": 3 },
+        { "type": "minecraft:item", "name": "minecraft:emerald_ore", "weight": 2 },
+        { "type": "minecraft:item", "name": "minecraft:nether_quartz_ore", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:ancient_debris", "weight": 1 },
+        { "type": "minecraft:item", "name": "minecraft:oak_sapling", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:spruce_sapling", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:birch_sapling", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:jungle_sapling", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:acacia_sapling", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:dark_oak_sapling", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:mangrove_propagule", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:cherry_sapling", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:pale_oak_sapling", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:villager_spawn_egg", "weight": 2 },
+        { "type": "minecraft:item", "name": "minecraft:wandering_trader_spawn_egg", "weight": 1 },
+        { "type": "minecraft:item", "name": "minecraft:cow_spawn_egg", "weight": 3 },
+        { "type": "minecraft:item", "name": "minecraft:sheep_spawn_egg", "weight": 3 },
+        { "type": "minecraft:item", "name": "minecraft:pig_spawn_egg", "weight": 3 },
+        { "type": "minecraft:item", "name": "minecraft:chicken_spawn_egg", "weight": 3 },
+        { "type": "minecraft:item", "name": "minecraft:horse_spawn_egg", "weight": 2 },
+        { "type": "minecraft:item", "name": "minecraft:rotten_flesh", "weight": 8 },
+        { "type": "minecraft:item", "name": "minecraft:bone", "weight": 8 },
+        { "type": "minecraft:item", "name": "minecraft:gunpowder", "weight": 6 },
+        { "type": "minecraft:item", "name": "minecraft:string", "weight": 7 },
+        { "type": "minecraft:item", "name": "minecraft:ender_pearl", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:slime_ball", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:blaze_rod", "weight": 3 }
+      ]
+    }
+  ]
+}
