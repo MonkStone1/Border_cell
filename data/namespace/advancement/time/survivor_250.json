@@ -1,0 +1,28 @@
+{
+  "parent": "namespace:time/survivor_100",
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "type": "translatable",
+      "translate": "namespace.advancement.time.survivor_250.title"
+    },
+    "description": {
+      "type": "translatable",
+      "translate": "namespace.advancement.time.survivor_250.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aboba": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "namespace:count"
+  }
+}
