@@ -1,0 +1,48 @@
+{
+  "parent":"namespace:middle/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "type": "translatable",
+      "translate": "namespace.advancement.middle.unlucky.title"
+    },
+    "description": {
+      "type": "translatable",
+      "translate": "namespace.advancement.middle.unlucky.description"
+    },
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hit_self": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player"
+            }
+          }
+        ],
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:arrow"
+            },
+            "source_entity": {
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "namespace:count_for_my_adv"
+  }
+}

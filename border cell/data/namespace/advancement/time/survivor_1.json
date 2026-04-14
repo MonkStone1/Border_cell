@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dandelion"
+    },
+    "title": {
+      "type": "translatable",
+      "translate": "namespace.advancement.time.survivor_1.title"
+    },
+    "description": {
+      "type": "translatable",
+      "translate": "namespace.advancement.time.survivor_1.description"
+    },
+    "background": "minecraft:block/gold_block",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+    
+  },
+  "criteria": {
+    "aboba": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "namespace:count_for_my_adv"
+  }
+}

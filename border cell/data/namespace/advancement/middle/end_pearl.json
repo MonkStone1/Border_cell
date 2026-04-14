@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "translate": "namespace.advencement.middle.end_pearl.title",
+      "type": "translatable"
+    },
+    "description": {
+      "translate": "namespace.advencement.middle.end_pearl.descriprtion",
+      "type": "translatable"
+    }
+  },
+  "parent": "namespace:middle/end_structure",
+  "criteria": {
+    "ender_pearl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {},
+        "items": [
+          {
+            "items": "minecraft:ender_pearl"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "namespace:count_for_my_adv"
+  }
+}
